@@ -200,7 +200,7 @@ $section-bottom-margin:          emCalc(20px) !default;
 }
 
 
-@if $include-html-section-classes {
+@if $include-html-section-classes == true {
 
   /* Sections */
   .section-container, .section-container.auto {
